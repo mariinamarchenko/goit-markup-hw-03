@@ -21,7 +21,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p 
+ul {
     margin: 0;
 }
 
@@ -336,12 +337,8 @@ p {
     margin: -1px;
 }
 
-.container {
-    width: 1200px;
-}
-
 .page-header {
-
+    border-bottom: 1px solid #ECECEC
 }
 
 .page-header-container {
@@ -376,13 +373,201 @@ p {
 
 .main {
     display: flex;
-    align-items: center;
     height: 600px;
+    align-items: center;
+    border: 1px solid #000000;
+    align-items: center;
 }
 
 .main-header {
     display: flex;
-    text-align: center;
     max-width: 696px;
+    text-align: center;
+    margin-left: 452px;
+    margin-right: 452px;
 }
+
+.main-button {
+    display:flex;
+    margin: 0 auto;
+    padding: 10px 32px;
+    border-radius: 4px;
+    border: transparent;
+    margin-top: 30px;
+}
+
+.container {
+    justify-content: center;
+}
+
+.advantages {
+    display: flex;
+    flex-basis: (100%-90px):4;
+    margin-top: 94px;
+}
+
+.advantages-text {
+    padding-top: 10px;
+}
+
+.services {
+    display: flex;
+    text-align: center;
+    margin-top: 94px;
+    margin-left: 617px;
+    margin-right: 617px;
+    max-width: 366px;
+    border-radius: nullpx;
+}
+
+.services-list-container {
+    display: flex;
+    /* flex-basis: (100%-60px):3; */
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 94px;
+}
+
+.team {
+    height: 648px
+}
+
+.team-header {
+    /* display: flex; */
+    width: 264px;
+    text-align: center;
+    margin-left: 668px;
+    margin-right: 668px;
+    padding-top: 94px;
+}
+
+.team-cards {
+    display: flex;
+    flex-basis: (100%-90px):4;
+    align-items: center;
+    gap: 30px;
+    margin-left: 215px;
+    margin-right: 215px;
+    padding-bottom: 94px;
+    justify-content: center;
+}
+
+.team-member {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.team-resp {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.team-cards-item {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.footer {
+    height: 252px;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.footer-logo {
+    text-decoration: none;
+    margin-left: 215px;
+}
+
+.footer-address {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 215px;
+    padding: 0;
+}
+
+.button {
+    display:flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 94px;
+}
+
+.button-all {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: transparent;
+    height: 38px;
+    width: 73px;
+    left: 512px;
+    top: 174px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.button-site, .button-apps, .button-design, .button-marketing {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 4px;
+    border: transparent;
+}
+
+.button-site {
+    height: 38px;
+    width: 125px;
+    left: 593px;
+    top: 175px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.button-apps {
+    height: 38px;
+    width: 112px;
+    left: 726px;
+    top: 174px;
+    border-radius: 4px;
+}
+
+.button-design {
+    height: 38px;
+    width: 103px;
+    left: 846px;
+    top: 174px;
+    border-radius: 4px;
+}
+
+.button-marketing {
+    height: 38px;
+    width: 130px;
+    left: 957px;
+    top: 174px;
+    border-radius: 4px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 34px;
+    margin-bottom: 0;
+}
+
+.project-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 94px;
+}
+
+.project-name {
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.category {
+    margin-top: 4px;
+    margin-left: 24px;
+}
+
 
