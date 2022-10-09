@@ -369,6 +369,7 @@ ul {
     justify-content: space-between;
     gap: 50px;
     margin-left: 344px;
+    padding-left: 0;
 }
 
 .main {
@@ -383,8 +384,9 @@ ul {
     display: flex;
     max-width: 696px;
     text-align: center;
-    margin-left: 452px;
-    margin-right: 452px;
+    /* margin-left: 452px;
+    margin-right: 452px; */
+    margin: 0 auto;
 }
 
 .main-button {
@@ -398,12 +400,21 @@ ul {
 
 .container {
     justify-content: center;
+    width: 1200px;
 }
 
 .advantages {
     display: flex;
     flex-basis: (100%-90px):4;
     margin-top: 94px;
+    align-content: center;
+    margin-left: 215px;
+    gap: 30px;
+}
+
+.advantages-item {
+    width: 270px;
+    height: 98px;
 }
 
 .advantages-text {
@@ -570,4 +581,8 @@ ul {
     margin-left: 24px;
 }
 
-
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
