@@ -1,5 +1,7 @@
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 :root {
@@ -344,8 +346,8 @@ ul {
 .page-header-container {
     display: flex;
     align-items: center;
-    padding-right: 215px;
-    padding-left: 215px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .page-header-nav {
@@ -377,15 +379,14 @@ ul {
     height: 600px;
     align-items: center;
     border: 1px solid #000000;
-    align-items: center;
+    justify-content: center;
+
 }
 
 .main-header {
     display: flex;
     max-width: 696px;
     text-align: center;
-    /* margin-left: 452px;
-    margin-right: 452px; */
     margin: 0 auto;
 }
 
@@ -399,22 +400,20 @@ ul {
 }
 
 .container {
-    justify-content: center;
     width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .advantages {
     display: flex;
-    flex-basis: (100%-90px):4;
-    margin-top: 94px;
-    align-content: center;
-    margin-left: 215px;
     gap: 30px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .advantages-item {
     width: 270px;
-    height: 98px;
 }
 
 .advantages-text {
@@ -422,35 +421,32 @@ ul {
 }
 
 .services {
-    display: flex;
     text-align: center;
-    margin-top: 94px;
-    margin-left: 617px;
-    margin-right: 617px;
-    max-width: 366px;
     border-radius: nullpx;
+    margin-bottom: 50px;
 }
 
 .services-list-container {
     display: flex;
-    /* flex-basis: (100%-60px):3; */
     justify-content: center;
     gap: 30px;
-    margin-top: 50px;
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
+}
+
+.services-list-container-item {
+
 }
 
 .team {
-    height: 648px
+    height: 648px;
+    margin-top: 94px;
 }
 
 .team-header {
-    /* display: flex; */
-    width: 264px;
     text-align: center;
-    margin-left: 668px;
-    margin-right: 668px;
+    border-radius: nullpx;
     padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .team-cards {
@@ -462,6 +458,7 @@ ul {
     margin-right: 215px;
     padding-bottom: 94px;
     justify-content: center;
+
 }
 
 .team-member {
@@ -489,13 +486,13 @@ ul {
 
 .footer-logo {
     text-decoration: none;
-    margin-left: 215px;
+    margin-left: 174px;
 }
 
 .footer-address {
     margin-top: 20px;
     margin-bottom: 60px;
-    margin-left: 215px;
+    margin-left: 174px;
     padding: 0;
 }
 
@@ -506,54 +503,26 @@ ul {
     margin-top: 94px;
 }
 
-.button-all {
+.buttons-filter:hover {
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
+
+.buttons-filter {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border: transparent;
-    height: 38px;
-    width: 73px;
-    left: 512px;
     top: 174px;
     border-radius: 4px;
-    text-align: center;
+    padding: 6px 22px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500px;
 }
 
 .button-site, .button-apps, .button-design, .button-marketing {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 4px;
     border: transparent;
-}
-
-.button-site {
-    height: 38px;
-    width: 125px;
-    left: 593px;
-    top: 175px;
-    border-radius: 4px;
-    text-align: center;
-}
-
-.button-apps {
-    height: 38px;
-    width: 112px;
-    left: 726px;
-    top: 174px;
-    border-radius: 4px;
-}
-
-.button-design {
-    height: 38px;
-    width: 103px;
-    left: 846px;
-    top: 174px;
-    border-radius: 4px;
-}
-
-.button-marketing {
-    height: 38px;
-    width: 130px;
-    left: 957px;
-    top: 174px;
-    border-radius: 4px;
 }
 
 .projects {
