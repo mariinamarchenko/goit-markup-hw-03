@@ -298,34 +298,6 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.button-all {
-    background-color: #2196F3;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    cursor: pointer;
-    letter-spacing: 0.03em;
-}
-
-.button-site, .button-apps, .button-design, .button-marketing {
-    background-color: #F5F4FA;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-    color: #212121;
-    letter-spacing: 0.03em;
-}
-
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -346,8 +318,8 @@ ul {
 .page-header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    /* padding-top: 24px;
+    padding-bottom: 25px; */
 }
 
 .page-header-nav {
@@ -363,6 +335,8 @@ ul {
     justify-content: space-between;
     gap: 50px;
     margin-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .contact {
@@ -372,15 +346,17 @@ ul {
     gap: 50px;
     margin-left: 344px;
     padding-left: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .main {
     display: flex;
-    height: 600px;
     align-items: center;
     border: 1px solid #000000;
     justify-content: center;
-
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .main-header {
@@ -406,10 +382,13 @@ ul {
 }
 
 .advantages {
-    display: flex;
-    gap: 30px;
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.advantages-list {
+    display: flex;
+    gap: 30px;
 }
 
 .advantages-item {
@@ -417,7 +396,19 @@ ul {
 }
 
 .advantages-text {
-    padding-top: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.advantages-title {
+    margin-bottom: 10px;
+}
+
+.p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .services {
@@ -430,31 +421,24 @@ ul {
     display: flex;
     justify-content: center;
     gap: 30px;
-    /* margin-bottom: 94px; */
 }
 
 .team {
-    height: 648px;
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team-header {
     text-align: center;
     border-radius: nullpx;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .team-cards {
     display: flex;
-    flex-basis: (100%-90px):4;
     align-items: center;
     gap: 30px;
-    margin-left: 215px;
-    margin-right: 215px;
-    padding-bottom: 94px;
     justify-content: center;
-
 }
 
 .team-member {
@@ -472,6 +456,7 @@ ul {
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    flex-basis: calc((100% - 3 * 30) / 4);
 }
 
 .footer {
@@ -485,39 +470,49 @@ ul {
     margin-left: 174px;
 }
 
-.footer-address {
+/* .footer-address-map {
     margin-top: 20px;
-    margin-bottom: 60px;
-    margin-left: 174px;
-    padding: 0;
+} */
+
+.footer-address-email {
+    margin-top: 9px;
+}
+
+.footer-address-phone {
+    margin-top: 9px;
+}
+
+.buttons {
+    padding-top: 94px;
+    padding-bottom: 49px;
 }
 
 .button {
     display:flex;
     justify-content: center;
     gap: 8px;
-    margin-top: 94px;
+    /* margin-bottom: 50px; */
 }
 
 .buttons-filter:hover {
     background-color: #2196F3;
     color:#FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .buttons-filter {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border: transparent;
     top: 174px;
     border-radius: 4px;
     padding: 6px 22px;
     cursor: pointer;
-    font-family: inherit;
     font-weight: 500px;
-}
-
-.button-site, .button-apps, .button-design, .button-marketing {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Roboto;
     border: transparent;
 }
 
@@ -526,24 +521,33 @@ ul {
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
-    padding-top: 34px;
+    margin-top: 50px; */
     margin-bottom: 0;
 }
 
 .project-item {
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    margin-bottom: 94px;
+    padding-top: 34px;
+}
+
+.project-item-box {
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
 }
 
 .project-name {
-    margin-top: 20px;
-    margin-left: 24px;
+    /* margin-top: 20px; */
+    /* margin-left: 24px; */
 }
 
 .category {
     margin-top: 4px;
-    margin-left: 24px;
+    margin-bottom: 0;
 }
 
 .img {
